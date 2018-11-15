@@ -4,13 +4,16 @@
     "description": "Bootstrap4Workflow",
     "main": "index.js",
     "scripts": {
-        "start": "gulp"
+        "start": "gulp",
+        "deploy":"gh-pages -d src"
     },
     "author": "Excelligence",
     "license": "ISC",
+    "homepage": "https://Excelligence.github.io/SellerVarsity",
     "dependencies": {
         "bootstrap": "^4.1.1",
         "font-awesome": "^4.7.0",
+        "gh-pages": "^2.0.1",
         "jquery": "^3.3.1",
         "popper.js": "^1.14.4"
     },
